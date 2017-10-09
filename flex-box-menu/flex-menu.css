@@ -3,6 +3,7 @@
 body {
     margin: 0;
     background: #ecf0f1;
+    color: #fff;
 }
 
 .sidebar {
@@ -10,6 +11,8 @@ body {
     width: 15vh;
     font-family: raleway;
     background: #34495e;
+    display: flex;
+    flex-direction: column;
 }
 
 .item {
