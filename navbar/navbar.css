@@ -20,9 +20,12 @@ a{
     color: #95a5a6;
     margin: 20px;
     border-bottom: 1px solid #52c9aa;
+    transition: color 0.5s ease-out;
+    transition: border-bottom 0.5s ease-out;
 }
+
 a:hover {
-    color: #3498db;
+    color: #3498db; 
     border-bottom: 1px solid #3498db;
 }
 
@@ -35,36 +38,6 @@ a:hover {
     }
     
     a{
-        font-size: 32px;
+        font-size: 25px;
     }
 }  
-
-/*@media screen and (max-width: 599px) and (min-width: 400px){*/
-/*    nav{*/
-/*        display: flex;*/
-/*        flex-direction: row;*/
-/*        justify-content: center;*/
-/*        align-items: center;*/
-/*        align-items: stretch; */
-/*    }*/
-/*}*/
-
-/*@media screen and (max-width: 799px) and (min-width: 600px){*/
-/*    nav{*/
-/*        display: flex;*/
-/*        flex-direction: row;*/
-/*        align-items: flex-end; */
-/*    }*/
-/*}*/
-
-/*@media screen and (min-width: 800px){*/
-/*    nav{ */
-/*        display: flex;*/
-/*        flex-direction: row;*/
-/*        justify-content: flex-end;*/
-/*        align-items: flex-end;*/
-/*    }*/
-/*}*/
-
-
-
